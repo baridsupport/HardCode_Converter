@@ -1,0 +1,15 @@
+﻿<Window x:Class="HardCode_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HardCode_Generator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <TextBox Name="inputTextBox" TextWrapping="Wrap" AcceptsReturn="True" MinLines="3" AcceptsTab="True" AutoWordSelection="True" Margin="0,0,0,65"/>
+        <Button Name="generateButton" Content="Generate" HorizontalAlignment="Left" Margin="245,0,0,8" Width="100" Click="Button_Click" Height="50" VerticalAlignment="Bottom"/>
+        <Button Name="copyButton" Content="Copy" HorizontalAlignment="Left" Margin="437,0,0,15" Width="50" Click="copyButton_Click" Height="40" VerticalAlignment="Bottom"/>
+        <Button Name="pasteButton" Content="Paste" HorizontalAlignment="Left" Margin="517,0,0,15" Width="50" Click="pasteButton_Click" Height="40" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
